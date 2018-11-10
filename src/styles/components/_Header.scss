@@ -1,0 +1,18 @@
+.header {
+  height: 100px;
+  background-color: $blue;
+  display: flex;
+  align-items: center;
+  padding: 0 $pc;
+
+  img {
+    height: 80px;
+  }
+
+  h1 {
+    font-family: 'Anton', sans-serif;
+    color: $blue-light;
+    font-size: 5rem;
+    padding-left: $pc;
+  }
+}
