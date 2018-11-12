@@ -12,14 +12,21 @@ class ChunksList extends Component {
   render(){
     return (
       <div className="chunks-list">
-        { this.props.chunks.map( chunk => {
-          return (
-            <Chunk
-              key={chunk.name}
-              name={chunk.name}
-            />
-          );
-        }) }
+        <div className="container">
+          { this.props.chunks.map( chunk => {
+            return (
+              <Chunk
+                key={chunk.title}
+                title={chunk.title}
+                description={chunk.description}
+                language={chunk.language}
+                keywords={chunk.keywords.join(', ')}
+                code={chunk.code}
+                id={chunk._id}
+              />
+            );
+          }) }
+        </div>
       </div>
     );
   }

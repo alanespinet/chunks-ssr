@@ -1,0 +1,81 @@
+.chunk {
+  margin-bottom: 4rem;
+  background-color: $blue-light;
+
+  &__title {
+    background-color: $blue;
+
+    h2 {
+      color: $gray-light;
+      font-family: 'Lato', sans-serif;
+      padding: 1rem 2rem;
+      font-size: 2.4rem;
+      font-weight: 300;
+    }
+  }
+
+  &__code {
+    background-color: $blue-light;
+    height: 25rem;
+    padding: 2.5rem;
+    margin-bottom: 25px;
+    overflow: hidden;
+
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    color: lighten( $gray-dark, 10% );
+  }
+
+  &__data {
+    background-color: $gray-silver;
+    padding: 1rem 2rem;
+
+    p {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: .5rem;
+      color: lighten( $gray-dark, 30% );
+
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+
+  &__actions {
+    background-color: $gray-silver;
+    padding: 1rem 2rem 1rem 1rem;
+
+    button {
+      -webkit-appearance: none;
+      -webkit-border-radius: 0px;
+      border-radius: 0px;
+      height: 40px;
+      text-align: center;
+      background-color: $red;
+      color: $gray-light;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 300;
+      border: none;
+      outline: none;
+      width: 100px;
+      display: inline-block;
+      margin: 0 0 0 auto;
+      transition: all .3s ease;
+      cursor: pointer;
+      margin-right: 1rem;
+
+      &.chunk__actions__view {
+        background-color: $gree;
+      }
+
+      &:hover {
+        background-color: $gray-dark;
+      }
+    }
+  }
+}

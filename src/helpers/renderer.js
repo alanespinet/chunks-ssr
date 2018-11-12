@@ -18,8 +18,8 @@ export default (req, store) => {
   return `
     <html>
       <head>
-        <title>SSR - LEARNING</title>
-        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <title>Code Chunks</title>
+        <link href="https://fonts.googleapis.com/css?family=Anton|Lato:300,400,700" rel="stylesheet">
       </head>
       <body>
         <div id="root">${ content }</div>

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Header from './Header';
 import ChunksList from './ChunksList';
+import { connect } from 'react-redux';
 
 class Home extends Component {
   render(){
     return (
       <div className="home">
-        <Header />
         <ChunksList />
       </div>
     );

@@ -1,4 +1,9 @@
 @import './settings/settings';
 @import './settings/base';
 
-@import './components/_Header.scss';
+@import './components/App';
+@import './components/Header';
+@import './components/Footer';
+@import './components/ChunksList';
+@import './components/Chunk';
+@import './components/Add';
